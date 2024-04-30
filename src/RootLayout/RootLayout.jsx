@@ -4,11 +4,17 @@ import Navbar from '../Shared/Navbar/Navbar'
 
 const RootLayout = () => {
   return (
-    <div className='w-[1160px] mx-auto'>
+    <div>
+      <div className='w-[1160px] mx-auto'>
         <Navbar></Navbar>
         <Outlet></Outlet>
-        <Footer></Footer>
+      
     </div>
+    <div>
+    <Footer></Footer>
+    </div>
+    </div>
+    
   )
 }
 
